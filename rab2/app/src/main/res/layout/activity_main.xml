@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/red"
+        android:text="RED"
+        android:background="#FF0000"
+
+        >
+    </Button>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        app:layout_constraintLeft_toRightOf="@id/red"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/yellow"
+        android:id="@+id/orange"
+        android:text="ORANGE"
+        android:background="#FFA500"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/yellow"
+        android:text="YELLOW"
+        android:background="#FFFF00"
+        >
+    </Button>
+    <!-- 第二行开始-->
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/orange"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="115dp"
+        android:id="@+id/green"
+        android:text="GREEN"
+        android:background="#008000"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintLeft_toRightOf="@id/green"
+        app:layout_constraintTop_toBottomOf="@id/orange"
+        app:layout_constraintRight_toLeftOf="@id/indigo"
+        android:layout_marginTop="40dp"
+        android:id="@+id/blue"
+        android:text="BLUE"
+        android:textColor="#FFFFFF"
+        android:background="#0000FF"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/orange"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="115dp"
+        android:id="@+id/indigo"
+        android:text="INDIGO"
+        android:textColor="#FFFFFF"
+        android:background="#4B0082"
+        >
+    </Button>
+    <!-- 第三行开始 -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/blue"
+        android:layout_marginTop="40dp"
+        android:id="@+id/violet"
+        android:text="VIOLET"
+        android:background="#EE82EE"
+        >
+    </Button>
+</androidx.constraintlayout.widget.ConstraintLayout>

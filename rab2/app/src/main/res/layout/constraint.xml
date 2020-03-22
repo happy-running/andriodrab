@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<constraintlayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/red"
+        android:text="RED"
+        android:background="#FF0000"
+
+        >
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/red"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/orange"
+        android:text="ORANGE"
+        android:background="#FFA500"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="@id/orange"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/yellow"
+        android:text="YELLOW"
+        android:background="#FFFF00"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/orange"
+        android:id="@+id/green"
+        android:text="GREEN"
+        android:background="#008000"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/orange"
+        android:id="@+id/blue"
+        android:text="BLUE"
+        android:background="#0000FF"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/orange"
+        android:id="@+id/indigo"
+        android:text="INDIGO"
+        android:background="#4B0082"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/blue"
+        android:id="@+id/violet"
+        android:text="VIOLET"
+        android:background="#EE82EE"
+        >
+    </Button>
+
+</constraintlayout>

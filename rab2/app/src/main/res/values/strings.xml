@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">rab2</string>
+
+    <string name="b11">One,One</string>
+    <string name="b12">One,Two</string>
+    <string name="b13">One,Three</string>
+    <string name="b14">One,Four</string>
+
+    <string name="b21">Two,One</string>
+    <string name="b22">Two,Two</string>
+    <string name="b23">Two,Three</string>
+    <string name="b24">Two,Four</string>
+
+    <string name="b31">Three,One</string>
+    <string name="b32">Three,Two</string>
+    <string name="b33">Three,Three</string>
+    <string name="b34">Three,Four</string>
+
+    <string name="b41">Four,One</string>
+    <string name="b42">Four,Two</string>
+    <string name="b43">Four,Three</string>
+    <string name="b44">Four,Four</string>
+    <string name="icon1">C:\Users\13295\Desktop\p1.png</string>
+</resources>

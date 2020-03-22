@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 设置按钮背景颜色为黑色-->
+    <solid android:color="@color/colorBlack"/>
+    <!-- 设置边框线的宽度(width)和颜色-->
+    <stroke android:width="2dp" android:color="@color/colorWhite" />
+
+</shape>
