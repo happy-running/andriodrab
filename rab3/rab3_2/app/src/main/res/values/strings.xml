@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">rab3</string>
+    <string name="text">你好！试着点击我。</string>
+    <string name="button_text">我是按钮</string>
+</resources>
