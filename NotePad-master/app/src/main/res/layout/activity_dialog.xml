@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0"
+    >
+
+    <TableRow>
+            <EditText
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="3dip"
+                android:layout_marginBottom="3dip"
+                android:background="@drawable/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:hint="请输入标题"
+                android:id="@+id/search_data"
+                />
+
+            <Button
+                android:background="@drawable/button"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dip"
+                android:layout_marginBottom="3dip"
+                android:layout_marginTop="1dip"
+                android:text="搜索"
+                android:id="@+id/btn_confirm"
+                />
+    </TableRow>
+
+
+</TableLayout>
